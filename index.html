@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Kampus - Website Statis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#beranda" class="logo">Kampus<span>Ku</span></a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Buka menu">☰</button>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#beranda">Beranda</a></li>
+                <li><a href="#tentang">Tentang</a></li>
+                <li><a href="#kegiatan">Kegiatan</a></li>
+                <li><a href="#galeri">Galeri</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="beranda" class="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <p class="eyebrow">WEBSITE PROFIL KAMPUS</p>
+                    <h1>Belajar, Berkarya, dan <span>Berkembang</span> Bersama.</h1>
+                    <p class="hero-description">
+                        Selamat datang di website profil kampus. Temukan informasi
+                        mengenai kegiatan, program, fasilitas, dan berbagai aktivitas
+                        akademik dalam satu tempat.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#tentang" class="btn btn-primary">Kenali Kami</a>
+                        <a href="#kontak" class="btn btn-outline">Hubungi Kami</a>
+                    </div>
+                </div>
+
+                <div class="hero-card">
+                    <div class="hero-icon">🎓</div>
+                    <h3>Generasi Unggul</h3>
+                    <p>Membangun mahasiswa yang kreatif, kompeten, dan siap menghadapi masa depan.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="tentang" class="section">
+            <div class="container two-column">
+                <div>
+                    <p class="section-label">TENTANG KAMI</p>
+                    <h2>Tempat untuk tumbuh dan berkembang.</h2>
+                    <p>
+                        KampusKu merupakan contoh website statis yang dibuat menggunakan
+                        HTML, CSS, dan JavaScript. Website ini dapat digunakan sebagai
+                        dasar untuk profil kampus, organisasi, sekolah, portofolio,
+                        maupun project tugas kuliah.
+                    </p>
+                    <p>
+                        Karena bersifat statis, informasi ditampilkan langsung dari
+                        file website dan tidak membutuhkan database.
+                    </p>
+                </div>
+
+                <div class="stats">
+                    <div class="stat-card">
+                        <strong>10+</strong>
+                        <span>Kegiatan</span>
+                    </div>
+                    <div class="stat-card">
+                        <strong>500+</strong>
+                        <span>Mahasiswa</span>
+                    </div>
+                    <div class="stat-card">
+                        <strong>25+</strong>
+                        <span>Dosen</span>
+                    </div>
+                    <div class="stat-card">
+                        <strong>8</strong>
+                        <span>Program</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="kegiatan" class="section section-alt">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="section-label">KEGIATAN</p>
+                    <h2>Aktivitas Kampus</h2>
+                    <p>Beberapa kegiatan yang dapat ditampilkan pada website.</p>
+                </div>
+
+                <div class="cards">
+                    <article class="card">
+                        <div class="card-icon">💻</div>
+                        <h3>Workshop Teknologi</h3>
+                        <p>Belajar teknologi terbaru melalui workshop dan praktik langsung.</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-icon">🏆</div>
+                        <h3>Kompetisi Mahasiswa</h3>
+                        <p>Mendorong mahasiswa untuk berprestasi melalui berbagai kompetisi.</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-icon">🤝</div>
+                        <h3>Organisasi & Komunitas</h3>
+                        <p>Membangun kerja sama dan pengalaman melalui organisasi mahasiswa.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeri" class="section">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="section-label">GALERI</p>
+                    <h2>Dokumentasi Kegiatan</h2>
+                    <p>Contoh area galeri yang dapat kamu isi dengan foto sendiri.</p>
+                </div>
+
+                <div class="gallery">
+                    <div class="gallery-item">📚<span>Perkuliahan</span></div>
+                    <div class="gallery-item">💡<span>Seminar</span></div>
+                    <div class="gallery-item">🎯<span>Workshop</span></div>
+                    <div class="gallery-item">🏅<span>Prestasi</span></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="kontak" class="section contact-section">
+            <div class="container contact-box">
+                <div>
+                    <p class="section-label">KONTAK</p>
+                    <h2>Ingin mengetahui lebih lanjut?</h2>
+                    <p>Silakan hubungi kami melalui informasi kontak berikut.</p>
+                </div>
+
+                <div class="contact-info">
+                    <p>📍 Bandar Lampung, Lampung</p>
+                    <p>✉️ info@kampusku.ac.id</p>
+                    <p>📞 +62 812-3456-7890</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>© <span id="year"></span> KampusKu. Semua hak dilindungi.</p>
+            <a href="#beranda">Kembali ke atas ↑</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
